@@ -1,0 +1,34 @@
+@media (min-width: 640px) {
+  #grid {
+    -moz-columns: 2;
+    columns: 2;
+  }
+  .detailed-info {
+    display: block;
+  }
+  .detailed-info > div {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  #grid {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    -moz-columns: 4;
+    columns: 4;
+  }
+  .detailed-info {
+    display: inline-flex;
+  }
+  .detailed-info > div {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  #grid {
+    -moz-columns: 6;
+    columns: 6;
+  }
+}
